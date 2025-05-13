@@ -1,0 +1,71 @@
+.page {
+  /* Agrega las propiedades de la clase page aquí */
+  min-width: 1100px;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.nav {
+  /* Agrega las propiedades flex aquí */
+}
+
+.nav__logo {
+}
+
+.nav__links {
+  /* Restablece los estilos predeterminados de list aquí */
+  margin: 8px 0 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header__content {
+  /* Agrega las propiedades flex aquí */
+}
+
+.header__title {
+}
+
+.header__description {
+}
+
+.header__image {
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.header__address {
+  margin: 0;
+  color: #838383;
+}
